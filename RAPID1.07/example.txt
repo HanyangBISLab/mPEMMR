@@ -1,0 +1,21 @@
+File::DataType				FINNIGAN
+File::DataList	
+	C:\data\18proteins\18proteins1.RAW
+	C:\data\18proteins\18proteins2.RAW
+	C:\data\18proteins\18proteins3.RAW
+
+PeakPicking::SNRThreshold		3.0
+PeakPicking::BackgroundRatio		5.0
+PeakPicking::FitType			QUADRATIC
+
+DeconvPep::MaxCharge			10
+DeconvPep::ThScore			0.0
+DeconvPep::OutputFormat			PEK
+DeconvPep::ResultOrder			ABUNDANCE
+DeconvPep::Target			MS
+DeconvPep::Truncated			NO
+
+AdvDeconv::MaxAbundancePeak		3
+AdvDeconv::ScanNoModifier		0
+AdvDeconv::MaxMissPeak			3
+AdvDeconv::MassErr			1.0E-05
